@@ -48,7 +48,7 @@ export default function Hero() {
             </span>
           </h1>
 
-          <p className="font-['var(--font-inter)'] text-lg md:text-xl text-slate-400 max-w-2xl mb-12 leading-relaxed">
+          <p className="font-['var(--font-montserrat)'] text-lg md:text-xl text-slate-400 max-w-2xl mb-12 leading-relaxed">
             Web Design & AI Automation Agency — built for businesses that want to lead, not follow. We merge high-end aesthetics with intelligent systems to scale your operations.
           </p>
 

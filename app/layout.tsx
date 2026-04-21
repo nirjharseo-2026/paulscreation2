@@ -1,10 +1,10 @@
 import type { Metadata } from 'next';
-import { Inter, Space_Grotesk } from 'next/font/google';
+import { Montserrat, Space_Grotesk } from 'next/font/google';
 import './globals.css';
 
-const inter = Inter({
+const montserrat = Montserrat({
   subsets: ['latin'],
-  variable: '--font-inter',
+  variable: '--font-montserrat',
 });
 
 const spaceGrotesk = Space_Grotesk({
@@ -23,7 +23,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${inter.variable} ${spaceGrotesk.variable} dark`}>
+    <html lang="en" className={`${montserrat.variable} ${spaceGrotesk.variable} dark`}>
       <body className="bg-[#0b0e14] text-[#e0e2eb] antialiased selection:bg-[#00f5ff]/30 selection:text-white" suppressHydrationWarning>
         {children}
       </body>

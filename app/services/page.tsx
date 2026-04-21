@@ -49,7 +49,7 @@ export default function Services() {
           <h1 className="font-['var(--font-space-grotesk)'] text-[clamp(40px,8vw,64px)] font-bold text-white leading-tight mb-8">
             Our <span className="text-[#00F5FF]">Arsenal</span> of Capabilities.
           </h1>
-          <p className="font-['var(--font-inter)'] text-lg text-slate-400 max-w-2xl mx-auto mb-12">
+          <p className="font-['var(--font-montserrat)'] text-lg text-slate-400 max-w-2xl mx-auto mb-12">
             We provide a localized focus with global impact. Our services are designed to give you a competitive edge through technical superiority.
           </p>
         </div>
@@ -65,7 +65,7 @@ export default function Services() {
                   {s.icon}
                 </div>
                 <h3 className="font-['var(--font-space-grotesk)'] text-3xl font-bold text-white mb-6 italic">{s.title}</h3>
-                <p className="font-['var(--font-inter)'] text-slate-400 leading-relaxed mb-8 max-w-md">{s.desc}</p>
+                <p className="font-['var(--font-montserrat)'] text-slate-400 leading-relaxed mb-8 max-w-md">{s.desc}</p>
               </div>
               <div className="flex justify-between items-center pt-8 border-t border-white/5">
                 <span className="font-['var(--font-space-grotesk)'] text-[12px] font-bold uppercase tracking-widest text-slate-500">{s.price}</span>
@@ -80,7 +80,7 @@ export default function Services() {
           <div className="p-12 rounded-[32px] bg-gradient-to-br from-[#00F5FF]/10 to-[#6900b3]/10 border border-white/10 flex flex-col justify-center items-center text-center">
              <Infinity className="text-white mb-6" size={48} />
              <h3 className="font-['var(--font-space-grotesk)'] text-3xl font-bold text-white mb-6">Unlimited Potential</h3>
-             <p className="font-['var(--font-inter)'] text-slate-400 leading-relaxed mb-10 max-w-sm">
+             <p className="font-['var(--font-montserrat)'] text-slate-400 leading-relaxed mb-10 max-w-sm">
                 Need something outside the box? We specialize in custom R&D and bleeding-edge integrations.
              </p>
              <button className="px-10 py-5 bg-white text-black font-['var(--font-space-grotesk)'] text-xs font-bold uppercase tracking-widest rounded-full hover:scale-105 transition-all">

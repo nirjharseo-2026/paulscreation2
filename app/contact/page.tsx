@@ -17,7 +17,7 @@ export default function Contact() {
             <h1 className="font-['var(--font-space-grotesk)'] text-[clamp(40px,8vw,64px)] font-bold text-white leading-tight tracking-tight mb-8 italic">
               Let&apos;s Scale <span className="font-normal text-slate-500">Together.</span>
             </h1>
-            <p className="font-['var(--font-inter)'] text-lg text-slate-400 max-w-xl leading-relaxed mb-12">
+            <p className="font-['var(--font-montserrat)'] text-lg text-slate-400 max-w-xl leading-relaxed mb-12">
               Ready to automate your workflow or redesign your digital identity? Fill out the form and our team will get back to you within 24 hours.
             </p>
 

@@ -36,7 +36,7 @@ export default function About() {
             <h1 className="font-['var(--font-space-grotesk)'] text-[clamp(40px,8vw,64px)] font-bold text-white leading-tight tracking-tight mb-8">
               Pioneering <span className="italic font-normal">Digital Intelligence.</span>
             </h1>
-            <p className="font-['var(--font-inter)'] text-lg text-slate-400 max-w-xl leading-relaxed mb-8">
+            <p className="font-['var(--font-montserrat)'] text-lg text-slate-400 max-w-xl leading-relaxed mb-8">
               Paulscreations was founded on the belief that mid-sized businesses deserve high-end technology. We bridges the gap between boutique design aesthetics and enterprise-level automation.
             </p>
           </div>
@@ -65,7 +65,7 @@ export default function About() {
                   {v.icon}
                 </div>
                 <h3 className="font-['var(--font-space-grotesk)'] text-xl font-bold text-white mb-4">{v.title}</h3>
-                <p className="font-['var(--font-inter)'] text-sm text-slate-500 leading-relaxed max-w-xs">{v.desc}</p>
+                <p className="font-['var(--font-montserrat)'] text-sm text-slate-500 leading-relaxed max-w-xs">{v.desc}</p>
               </div>
             ))}
           </div>
@@ -78,7 +78,7 @@ export default function About() {
            <h2 className="font-['var(--font-space-grotesk)'] text-[clamp(24px,5vw,40px)] font-bold text-white mb-10 leading-tight">
             &quot;Design is not just what it looks like and feels like. Design is how it works &mdash; and how it scales.&quot;
            </h2>
-           <p className="font-['var(--font-inter)'] text-slate-400 leading-relaxed mb-12 italic">
+           <p className="font-['var(--font-montserrat)'] text-slate-400 leading-relaxed mb-12 italic">
             In every project, we prioritize system stability and growth potential. We don&apos;t just build for today; we architect for your future legacy.
            </p>
            <div className="w-16 h-[1px] bg-[#00F5FF] mx-auto mb-10"></div>

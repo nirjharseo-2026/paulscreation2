@@ -11,10 +11,10 @@ export default function Footer() {
               Paulscreations 
               <span className="w-1.5 h-1.5 rounded-full bg-[#00F5FF]"></span>
             </Link>
-            <p className="font-['var(--font-inter)'] text-sm text-slate-500 max-w-sm mb-8 leading-relaxed">
+            <p className="font-['var(--font-montserrat)'] text-sm text-slate-500 max-w-sm mb-8 leading-relaxed">
               Architecting the intersection of premium design and autonomous intelligence. Leading the way in digital transformation with high-end aesthetics and smart automation.
             </p>
-            <div className="font-['var(--font-inter)'] text-xs text-slate-600 uppercase tracking-widest">
+            <div className="font-['var(--font-montserrat)'] text-xs text-slate-600 uppercase tracking-widest">
               © 2024 Paulscreations — Design. Automate. Grow.
             </div>
           </div>

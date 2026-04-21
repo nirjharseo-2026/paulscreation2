@@ -40,7 +40,7 @@ export default function Home() {
               Solutions That Scale<br />
               <span className="text-slate-500">Your Business.</span>
             </h2>
-            <p className="font-['var(--font-inter)'] text-slate-400">
+            <p className="font-['var(--font-montserrat)'] text-slate-400">
               We specialize in the bridge between design and intelligence. Our team builds digital infrastructure that works for you, giving you more time to focus on growth.
             </p>
           </div>
@@ -61,7 +61,7 @@ export default function Home() {
               <h3 className="font-['var(--font-space-grotesk)'] text-xl font-bold text-white mb-4">
                 {service.title}
               </h3>
-              <p className="font-['var(--font-inter)'] text-sm text-slate-400 leading-relaxed mb-8">
+              <p className="font-['var(--font-montserrat)'] text-sm text-slate-400 leading-relaxed mb-8">
                 {service.desc}
               </p>
               <Link href="/services" className="text-xs font-['var(--font-space-grotesk)'] font-bold uppercase tracking-widest text-[#00F5FF] opacity-0 group-hover:opacity-100 transition-all">
@@ -121,7 +121,7 @@ export default function Home() {
                <h2 className="font-['var(--font-space-grotesk)'] text-[clamp(28px,6vw,48px)] font-bold text-white mb-8 relative z-10">
                 Ready to lead the future?<br /> Let&apos;s build it.
                </h2>
-               <p className="text-slate-400 max-w-xl mx-auto mb-12 font-['var(--font-inter)'] relative z-10">
+               <p className="text-slate-400 max-w-xl mx-auto mb-12 font-['var(--font-montserrat)'] relative z-10">
                 Join the exclusive list of companies leveraging AI and high-end design to dominate their niche.
                </p>
                <Link 

@@ -54,7 +54,7 @@ export default function Reviews() {
           {reviews.map((r, i) => (
             <div key={i} className="break-inside-avoid p-10 rounded-[32px] bg-white/[0.03] border border-white/10 hover:border-white/20 transition-all group">
               <Quote className="text-[#00F5FF]/30 mb-8 group-hover:text-[#00F5FF] transition-colors" size={32} />
-              <p className="font-['var(--font-inter)'] text-lg text-slate-300 leading-relaxed mb-10">
+              <p className="font-['var(--font-montserrat)'] text-lg text-slate-300 leading-relaxed mb-10">
                 &quot;{r.content}&quot;
               </p>
               <div className="flex items-center gap-4">
@@ -78,7 +78,7 @@ export default function Reviews() {
           {/* Call to Trust */}
           <div className="break-inside-avoid p-12 rounded-[32px] bg-[#00F5FF]/10 border border-[#00F5FF]/20 text-center">
             <h3 className="font-['var(--font-space-grotesk)'] text-2xl font-bold text-white mb-6 underline decoration-[#00F5FF]">Your Brand Next?</h3>
-            <p className="font-['var(--font-inter)'] text-sm text-slate-400 mb-8 leading-relaxed">
+            <p className="font-['var(--font-montserrat)'] text-sm text-slate-400 mb-8 leading-relaxed">
               We only take on 3 new partners per month to ensure absolute quality. Secure your spot in our pipeline.
             </p>
             <button className="w-full py-4 bg-white text-black font-bold font-['var(--font-space-grotesk)'] uppercase tracking-widest text-xs rounded-xl hover:bg-[#00F5FF] transition-all">
